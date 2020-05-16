@@ -23,7 +23,7 @@ variable "custom_security_group_id" {
 
 variable "instance_type" {
   description = "The type of instances to create."
-  default     = "t2.large"
+  default     = "t2.micro"
   type        = "string"
 }
 
