@@ -53,7 +53,7 @@ variable "root_volume_iops" {
 
 variable "root_volume_size" {
   description = "The volume size in gigabytes."
-  default     = "1"
+  default     = "8"
   type        = "string"
 }
 
