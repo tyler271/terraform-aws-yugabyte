@@ -23,7 +23,7 @@ variable "custom_security_group_id" {
 
 variable "instance_type" {
   description = "The type of instances to create."
-  default     = "t2.micro"
+  default     = "t2.large"
   type        = "string"
 }
 
@@ -53,7 +53,7 @@ variable "root_volume_iops" {
 
 variable "root_volume_size" {
   description = "The volume size in gigabytes."
-  default     = "8"
+  default     = "1"
   type        = "string"
 }
 
